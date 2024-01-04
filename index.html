@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="birds.js" defer></script>
+
+    <title>
+        Birds
+    </title>
+</head>
+
+
+
+<body>
+    <div class="grid-container">
+
+    <header>
+
+        <div class="aligned">
+            <img src="data/images/kiwi.png" alt="kiwi bird" />
+
+            <h1>Birds of Aotearoa</h1>
+
+        </div>
+
+    </header>
+
+
+
+    <div class="left-banner">
+        <form accept-charset="utf-8" >
+            <fieldset>
+
+                <p class="filter-text"><strong>Filter Birds</strong></p>
+
+                <label>Search
+                    <input type="search" id="searchbox" name="search" placeholder="Search..." />
+                </label>
+
+
+
+                <label>Conservation Status
+                    <select name="conservation" id="conservation">
+                        <option value="0">All</option>
+                        <option value="1">Not Threatened</option>
+                        <option value="2">Naturally Uncommon</option>
+                        <option value="3">Relicit</option>
+                        <option value="4">Recovering</option>
+                        <option value="5">Declining</option>
+                        <option value="6">Nationally Increasing</option>
+                        <option value="7">Nationally Vulnerable</option>
+                        <option value="8">Nationally Endangered </option>
+                        <option value="9">Nationally Critical</option>
+                        <option value="9">Data Deficient</option>
+                    </select>
+                </label>
+
+
+
+                <label>Sort by
+                    <select name="sort-by" id="sort-by">
+                        <option value="0">Lightest to heaviest</option>
+                        <option value="1">Smallest to largest (length)</option>
+                        <option value="2">Alphabetical order (by name)</option>
+                        <option value="3">Alphabetical order (by family)</option>
+                    </select>
+                </label>
+
+
+
+                <input type="submit" value="FILTER RESULTS" id="sort" />
+            </fieldset>
+        </form>
+
+
+        <h2 class="conservation-heading">Conservation Status</h2>
+
+
+        <ul id="conservation-list">
+            <li><span>Not Threatened</span>
+            </li>
+            <li><span>Naturally Uncommon</span>
+            </li>
+            <li><span>Relicit</span>
+            </li>
+            <li><span>Recovering</span>
+            </li>
+            <li><span>Declining</span>
+            </li>
+            <li><span>Nationally Increasing</span>
+            </li>
+            <li><span>Nationally Vulnerable</span>
+            </li>
+            <li><span>Nationally Endangered</span>
+            </li>
+            <li><span>Nationally Critical</span>
+            </li>
+            <li><span>Extinct</span>
+            </li>
+            <li><span>Data Deficient</span>
+            </li>
+          </ul>
+
+        <p class="conservation-source"> Conservation status from <a href="https://www.doc.govt.nz/nature/conservation-status/threatened-birds/">DOC
+                website</a> </p>
+ </div>
+
+
+
+<main class="flex-container">
+
+
+</main>
+
+    <footer>
+        <p>Data licensed from <a href="https://www.birdsnz.org.nz/">Birds New Zealand</a> for educaitonal use within
+            the
+            University of Otago</p>
+    </footer>
+
+
+    
+    </div>
+
+</body>
+
+</html>
+
+
